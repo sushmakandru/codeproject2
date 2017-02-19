@@ -1,0 +1,104 @@
+.container {
+  margin: 40px auto;
+  /*margin: 0 auto;*/
+  /*width: 600px;*/
+  width: 720px;
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+th {
+  text-align: left;
+}
+nav {
+  z-index: 1;
+  background-color: #152737;
+  width: 20%;
+  position: fixed;
+  max-width: 250px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  line-height: 2em;
+  padding: 15px;
+}
+
+nav li{
+	color: white;
+  text-decoration: none;
+}
+
+#skycast{
+	font-size: 3em;
+	color: white;
+}
+
+h9 {
+	color: white;
+  text-decoration: none;	
+}
+
+#main {
+  float:left;
+  width:380px;
+  height:150px;
+}
+
+#sidebar {
+  float:right;
+  width:340px;
+}
+
+body {
+    background-color: #FFFFF7;
+}
+
+.credit {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;  
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+/*-----------bargraph-------------*/
+
+.container2 {
+  margin: 40px auto;
+  /*margin: 0 auto;*/
+  /*width: 600px;*/
+  width: 720px;
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+  fill-opacity: .9;
+}
+
+.x.axis path {
+  display: solid;
+}
+
+
+
+
+
